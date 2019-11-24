@@ -1,0 +1,13 @@
+public class Dog{
+ string name = "Nicole";
+ 
+ public void Dog(string nameEG){
+  name = nameEG;
+  }
+  
+  public void Bark(){
+  System.out.println(name + "sAYS wOOF");}
+  
+  public void getname(){
+  	return name;}
+ }
